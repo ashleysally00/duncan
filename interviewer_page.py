@@ -1,5 +1,3 @@
-# apps/interviewer_page.py
-
 import streamlit as st
 from src.gemini_interviewer import analyze_response_and_prompt_next_question, start_interview
 from src.utils import load_css, init_session_state, reset_session_state
@@ -20,8 +18,9 @@ def app():
     st.subheader("Your Details")
     current_job_type = st.text_input("Current Job Type:", value="")
     new_job_type = st.text_input("New Job Type:", value="")
-    
-    if not st.session_state.interview_prompt:
+
+    # Ensure 'interview_prompt' is initialized in session state
+    if "interview_prompt" not in st.session_state:
         st.session_state.interview_prompt = start_interview()
     
     st.subheader("Interviewer Question")
@@ -31,7 +30,6 @@ def app():
         f'</div>',
         unsafe_allow_html=True
     )
-
 
     with st.form("User Response", clear_on_submit=True):
         user_response = st.text_area("Your response:", height=150)
@@ -50,11 +48,11 @@ def app():
                         user_response, st.session_state.interview_prompt, context=context
                     )
                     st.session_state.interview_prompt = feedback
-                    st.rerun()  # Rerun to refresh the page
+                    st.experimental_rerun()  # Rerun to refresh the page
                 except Exception as e:
                     st.error(f"An error occurred: {str(e)}")
 
     # Reset Interview button logic
     if st.button("Reset Interview"):
         st.session_state.interview_prompt = start_interview()
-        st.rerun()
+        st.experimental_rerun()
