@@ -43,6 +43,7 @@ class MultiApp:
 
     def run(self):
         with st.sidebar:
+            ''' 
             app = option_menu(
                 menu_title='Pondering',
                 options=['Home', 'Confidence Quiz', 'Interviewer', 'Resources', 'Statistics', 'Motivation', 'Progress Tracker', 'About'],
@@ -55,7 +56,8 @@ class MultiApp:
                     "nav-link": {"color": "white", "font-size": "20px", "text-align": "left", "margin": "0px", "--hover-color": "blue"},
                     "nav-link-selected": {"background-color": "#02ab21"},
                 }
-            )
+            ) 
+            '''
 
         if app == "Home":
             home.app()
