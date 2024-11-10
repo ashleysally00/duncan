@@ -1,0 +1,170 @@
+/* Main theme colors */
+:root {
+  --primary-color: #2e4057;
+  --secondary-color: #48a9a6;
+  --accent-color: #e4d9ff;
+  --background-color: #f7f7f7;
+  --text-color: #333333;
+  --error-color: #d32f2f;
+  --warning-color: #ffa726;
+  --eggplant: #483248;
+  --divider-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Global styles */
+.stApp {
+  background-color: var(--background-color);
+}
+
+/* Right column styling */
+[data-testid="column"][data-column-value="1"] {
+  background-color: var(--eggplant);
+  padding: 20px;
+  border-radius: 10px;
+  color: white !important;
+}
+
+/* Left column with divider */
+[data-testid="column"][data-column-value="0"] {
+  position: relative;
+}
+
+[data-testid="column"][data-column-value="0"]::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: var(--divider-color);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for elements in the right column */
+[data-testid="column"][data-column-value="1"] h2,
+[data-testid="column"][data-column-value="1"] h3,
+[data-testid="column"][data-column-value="1"] p,
+[data-testid="column"][data-column-value="1"] label,
+[data-testid="column"][data-column-value="1"] .stMarkdown {
+  color: white !important;
+}
+
+/* Input fields in dark background */
+[data-testid="column"][data-column-value="1"] .stTextInput input,
+[data-testid="column"][data-column-value="1"] .stTextArea textarea,
+[data-testid="column"][data-column-value="1"] .stNumberInput input {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Selectbox in dark background */
+[data-testid="column"][data-column-value="1"] .stSelectbox select {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+/* Header/Title styling */
+.main .block-container {
+  padding-top: 2rem;
+}
+
+h1 {
+  color: var(--primary-color);
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+}
+
+/* Button styling */
+.stButton > button {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 2rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.stButton > button:hover {
+  background-color: #3b8a87;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Text area styling */
+.stTextArea textarea {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 0.5rem;
+  color: var(--text-color);
+  font-size: 1rem;
+  min-height: 100px;
+}
+
+.stTextArea textarea:focus {
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 0 1px var(--secondary-color);
+}
+
+/* Quiz section styling */
+.quiz-section {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Interview section styling */
+.interviewer-question {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-left: 4px solid var(--secondary-color);
+}
+
+.interviewer-question strong {
+  color: white;
+  font-size: 1.1rem;
+}
+
+/* Split layout styling */
+.split-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.column {
+  flex: 1;
+  padding: 1rem;
+}
+
+/* Radio button styling */
+.stRadio > label {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+/* Alert styling */
+.stAlert {
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.error {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-left: 4px solid var(--error-color);
+}
+
+.warning {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-left: 4px solid var(--warning-color);
+}
