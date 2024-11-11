@@ -32,9 +32,9 @@ class MultiApp:
         # app = st.sidebar(
         with st.sidebar:        
             app = option_menu(
-                menu_title='Pondering ',
-                options=['Home','Confidence Quiz', 'Interviewer','Resources','Statistics','Motivation','Progress Tracker', 'About'],
-                icons=['house-fill','person-circle','trophy-fill','chat-fill','info-circle-fill'],
+                menu_title='Empower Her ',
+                options=['Home','Confidence Quiz', 'Interview Coach','Resources','Statistics','Motivation','Progress Tracker', 'About'],
+    icons=['house-fill', 'clipboard-check-fill', 'chat-square-dots-fill', 'book-fill', 'bar-chart-fill', 'heart-fill', 'check2-circle', 'info-circle-fill'],
                 menu_icon='chat-text-fill',
                 default_index=0,
                 styles={
