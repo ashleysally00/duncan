@@ -35,13 +35,20 @@ class MultiApp:
                 menu_title='Empower Her ',
                 options=['Home','Confidence Quiz', 'Interview Coach','Resources','Statistics','Motivation','Progress Tracker', 'About'],
     icons=['house-fill', 'clipboard-check-fill', 'chat-square-dots-fill', 'book-fill', 'bar-chart-fill', 'heart-fill', 'check2-circle', 'info-circle-fill'],
-                menu_icon='chat-text-fill',
+                menu_icon='trophy',
                 default_index=0,
                 styles={
                     "container": {"padding": "5!important","background-color":'black'},
         "icon": {"color": "white", "font-size": "23px"}, 
         "nav-link": {"color":"white","font-size": "20px", "text-align": "left", "margin":"0px", "--hover-color": "blue"},
-        "nav-link-selected": {"background-color": "#4B8BBE"},}
+        "nav-link-selected": {"background-color": "#6a0dad", "color": "white"},
+        "menu-title": {  # Style for menu title to improve visibility
+                    "font-size": "24px",  # Increase font size
+                    "color": "white",  # Set a contrasting color
+                    "font-weight": "bold",  # Make it bold
+                    "padding": "10px 5px"  # Add padding
+                        }
+                  }
                 
                 )
         
@@ -69,6 +76,5 @@ class MultiApp:
              
     run()            
          
-
 
 
