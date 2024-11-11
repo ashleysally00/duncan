@@ -48,10 +48,10 @@ def app():
             st.session_state.quiz_answers.append(answer[0])
             if st.session_state.current_question < len(quiz.questions) - 1:
                 st.session_state.current_question += 1
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.session_state.quiz_complete = True
-                st.experimental_rerun()
+                st.rerun()
 
     else:
         results = quiz.calculate_score(st.session_state.quiz_answers)
@@ -74,5 +74,5 @@ def app():
 
         if st.button("Retake Quiz"):
             reset_session_state()
-            st.experimental_rerun()
+            st.rerun()
 
