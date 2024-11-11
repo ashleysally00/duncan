@@ -3,7 +3,10 @@ import streamlit as st
 
 def app():
     # Page title with styling
-    st.markdown("<h1 style='text-align: center; color: #4B8BBE;'>Empower Yourself and Elevate Your Career</h1>", unsafe_allow_html=True)
+    st.markdown(
+        "<h1 style='text-align: center; color: #4B8BBE; '>Empower&nbsp;You&nbsp;:&nbsp;Elevate&nbsp;Your&nbsp;Career&nbsp;</h1>", 
+        unsafe_allow_html=True
+    )
     
     # Add a descriptive subtitle with center alignment
     st.markdown("<h3 style='text-align: center; color: #4B8BBE;'>Use our AI Interview Coach, build your confidence, and reach new heights in your career.</h3>", unsafe_allow_html=True)
