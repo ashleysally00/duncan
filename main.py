@@ -51,7 +51,7 @@ class MultiApp:
             trending.app()
         if app == 'Confidence Quiz':
             confidence_quiz_page.app()    
-        if app == 'Interviewer':
+        if app == 'Interview Coach':
             interviewer_page.app() 
         elif app == "Resources":
             resources.show()
