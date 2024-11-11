@@ -50,7 +50,7 @@ def show():
 
     # Success Stories from Women in Tech
     st.subheader("Success Stories")
-    with st.expander("From Academic to Tech Lead", expanded=True):
+    with st.expander("From Academic to Principal Lead", expanded=True):
         st.markdown("""
         ### PhD to Technical Leadership
         
