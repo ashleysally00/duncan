@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 import home
-import confidence_quiz_page, interviewer_page, resources, stats, motivation, progress_tracker
+import confidence_quiz_page, interviewer_page, resources, stats, motivation, progress_tracker, about
 st.set_page_config(
         page_title="Elevate U: Boost Your Confidence and Career ",
 )
