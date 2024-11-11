@@ -43,7 +43,7 @@ def app():
             <div style="text-align: center;">
                 <img src="https://img.icons8.com/ios-filled/50/4B8BBE/trophy.png" width="50" height="50"/>
                 <h4>Motivation</h4>
-                <p style="color: #555555;">Read inspirational succes stories and motivational tips to keep pushing forward.</p>
+                <p style="color: #555555;">Get daily inspirational quotes, read succes stories and motivational tips to keep pushing forward.</p>
             </div>
             <div style="text-align: center;">
                 <img src="https://img.icons8.com/ios-filled/50/4B8BBE/task-completed.png" width="50" height="50"/>
