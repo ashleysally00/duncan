@@ -4,7 +4,7 @@ import streamlit as st
 def app():
     # Page title with styling
     st.markdown(
-        "<h1 style='text-align: center; color: #4B8BBE; '>Empower&nbsp;You&nbsp;:&nbsp;Elevate&nbsp;Your&nbsp;Career&nbsp;</h1>", 
+        "<h1 style='text-align: center; color: #4B8BBE; '>Empower&nbsp;You:&nbsp;Elevate&nbsp;Your&nbsp;Career&nbsp;</h1>", 
         unsafe_allow_html=True
     )
     
