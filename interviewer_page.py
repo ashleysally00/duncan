@@ -48,11 +48,11 @@ def app():
                         user_response, st.session_state.interview_prompt, context=context
                     )
                     st.session_state.interview_prompt = feedback
-                    st.experimental_rerun()  # Rerun to refresh the page
+                    st.rerun()  # Rerun to refresh the page
                 except Exception as e:
                     st.error(f"An error occurred: {str(e)}")
 
     # Reset Interview button logic
     if st.button("Reset Interview"):
         st.session_state.interview_prompt = start_interview()
-        st.experimental_rerun()
+        st.rerun()
