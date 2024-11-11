@@ -60,15 +60,15 @@ class MultiApp:
             confidence_quiz_page.app()    
         if app == 'Interview Coach':
             interviewer_page.app() 
-        elif app == "Resources":
+        if app == "Resources":
             resources.show()
-        elif app == "Statistics":
+        if app == "Statistics":
             stats.show()
-        elif app == "Motivation":
+        if app == "Motivation":
             motivation.show()
-        elif app == "Progress Tracker":
+        if app == "Progress Tracker":
             progress_tracker.show()
-        elif app == "About":
+        if app == "About":
             about.app()
    
   
