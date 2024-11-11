@@ -31,7 +31,7 @@ def app():
         st.write("Take our confidence assessment to get personalized advice.")
         if st.button("Start Quiz"):
             st.session_state.quiz_started = True
-            st.experimental_rerun()
+            st.rerun()
 
     elif not st.session_state.quiz_complete:
         current_q = quiz.questions[st.session_state.current_question]
