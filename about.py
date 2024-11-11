@@ -22,7 +22,7 @@ def app():
     ### Why Empower Her?
     Women earn, on average, **84 cents** to every dollar men make, creating a lifetime earnings gap of **$417,000**. 
 
-    Low confidence during job interviews is a critical factor contributing to lower wages. When candidates are unsure of their value, they may downplay their achievements, hesitate to advocate for themselves, or accept lower salary offers. Over time, this leads to compounded income disparities and missed advancement opportunities. By boosting confidence in interview skills and negotiation, Empower Her aims to bridge this gap by providing women with tools to strengthen their confidence and professional presence.
+    Low confidence during job interviews and in their professional abilities is a critical factor contributing to lower wages. When candidates are unsure of their value, they may downplay their achievements, hesitate to advocate for themselves, or accept lower salary offers. Over time, this leads to compounded income disparities and missed advancement opportunities. By boosting confidence in interview skills and negotiation, Empower Her aims to bridge this gap by providing women with tools to strengthen their confidence and professional presence.
 
     """)
 
