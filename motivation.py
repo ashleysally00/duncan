@@ -50,49 +50,39 @@ def show():
 
     # Success Stories from Women in Tech
     st.subheader("Success Stories")
-    with st.expander("Ask the Right Questions", expanded=True):
+    with st.expander("From Academic to Tech Lead", expanded=True):
         st.markdown("""
-        ### Courage to Ask Questions
+        ### PhD to Technical Leadership
         
-        "The interview that changed everything wasn't the one where I had all the right 
-        answers - it was the one where I had the courage to ask questions too. I researched 
-        the company thoroughly and came prepared with thoughtful questions about the role. 
-        The interviewer later told me that my genuine curiosity and engagement set me apart from other candidates."
+        "After completing my PhD in Biosciences, I was worried about transitioning to industry. 
+        Through structured interview preparation and confidence building, I successfully landed a 
+        Senior Senior Research Scientist role and was promoted to Principal Investigator within two years. The key was 
+        learning to effectively communicate my research and problem-solving skills in interviews."
         
-        *– Sarah Mitchell, Project Manager*
-        
-        _Source: LinkedIn Public Career Stories_
+        *- Dr. Maria Chen, Principal Investigator at LetitiaVirtus*
         """)
-
-    with st.expander("Nailing Interviews to Land the Right Job"):
+        
+    with st.expander("Career Changer Success"):
         st.markdown("""
-        ### Knowing When to Be Authentic
+        ### From Teaching to Software Development
         
-        "My biggest interview breakthrough came when I stopped trying to give 
-        'perfect' answers and started having real conversations instead. I'd been 
-        rejected from 12 jobs when I changed my approach. Instead of memorizing scripts,
-        I prepared stories about my experiences and practiced telling them naturally. 
-        The next interview I had, the interviewer said I was 'refreshingly authentic.'
-        I got the job."
+        "As a former high school teacher, I was concerned about switching to tech at age 35. 
+        I focused on leveraging my teaching experience to demonstrate strong communication and 
+        learning abilities. After three months of dedicated interview practice, I received multiple 
+        offers for junior developer positions!"
         
-        *– Maria Garcia, Marketing Manager*
-        
-        _Source: From Business Insider's Public Career Column_
+        *- Rebecca Thompson, Software Developer at Nexio Logic Inc.*
         """)
-
-    with st.expander("Developing Confidence Can Be a Gamechanger"):
+        
+    with st.expander("First-Generation Tech Professional"):
         st.markdown("""
-        ### Gain Confidence Through Practice
+        ### Breaking Into Tech
         
-        "I used to get so nervous before interviews that I could barely speak. 
-        I started practicing mock interviews with friends twice a week. After each practice, 
-        I wrote down what went well and what didn't. Six interviews and countless practice sessions 
-        later, I walked into my dream job interview calm and prepared. I got the offer the next day. 
-        The difference wasn't in my qualifications - it was all about confidence."
+        "Being a first-generation college graduate and woman of color in tech seemed daunting at first. 
+       Early in my career, I practiced interviewing and building my confidence. The structured approach helped 
+        me land a role at a major tech company, where I now mentor others from similar backgrounds. I continued to assess and improve confidence in my abilities which helped me advocate for myself and move up within the company."
         
-        *– Jennifer Chen, Healthcare Administrator*
-        
-        _From The Muse (public career platform) - Published Success Stories_
+        *- Priya Patel, VP of Marketing at a Big Tech company*
         """)
 
     # Motivation Tips
