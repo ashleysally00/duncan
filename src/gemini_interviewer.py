@@ -35,11 +35,11 @@ def analyze_response_and_prompt_next_question(user_response, previous_prompt, co
        - Professional experience
        - Problem-solving abilities
        - Teamwork and collaboration
-       - Skills relevant to {context['new_job_type']}
+       - subject matter relevant to {context['new_job_type']}
        - Leadership skills if the {context['new_job_type']} is a manager, director or otherwise leadership role. 
        - other questions that get typically asked during an interview
        - Do not use any previously used questions. 
-       - subject matter of {context['new_job_type']}
+
     
     Keep your response concise and conversational. Format your response as:
     Coaching feedback on your response:
