@@ -42,7 +42,7 @@ def analyze_response_and_prompt_next_question(user_response, previous_prompt, co
      6. Remember to tailor questions to the candidate's specific background and the new role                                                                   
 
     Keep your response concise and conversational. Format your response as:
-    **Coaching feedback on your response:**
+    Coaching feedback on your response:
 
     **Suggested example response:**
     
