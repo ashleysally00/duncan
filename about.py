@@ -55,7 +55,11 @@ def app():
     # Placeholder for contributors
     st.markdown("""
     - **Contributor 1**: Ashley Rice, California, USA
+    [LinkedIn](https://www.linkedin.com/in/ashleylynnrice/) | [GitHub](https://github.com/ashleysally00)
+     
     - **Contributor 2**: Vino Gupta, Illinois, USA
+    [LinkedIn]( https://www.linkedin.com/in/vino-gupta/) | [GitHub](https://github.com/Vino927)
+
     """)
 
    
