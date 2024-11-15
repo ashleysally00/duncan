@@ -1,6 +1,20 @@
 # Interview Preparation Assistant
 
-This has a menu with some multi-page content as a test of the format. The colors and CSS are not right yet.
+[Check out the video for our new interview prep app here!](https://www.youtube.com/watch?v=5ig7lilsb-I)
+
+Test the app here: https://duncan-prep.streamlit.app/
+
+Meet our new app, Empower Her - we designed Empower Her to help women in the fight for economic equality.
+This app functions as both a confidence builder and a job coach. Women can use Empower Her to improve their interview skills with immediate AI-driven feedback They can take the confidence quiz and get conclusions and tips. Our aim is to help women become more confident during interviews so they can get better jobs that pay more.
+
+Our app aligns with UN SDG 5 for gender equality. Learn more here: 
+https://sdgs.un.org/goals/goal5
+
+We created it to promote economic empowerment and leadership for women and girls. We made it by leveraging the power of Google's AI.
+We built it during the Google Women Techmakers She Builds AI Hackathon. Learn more here: https://developers.google.com/womente...
+
+
+
 
 ## Local Setup Instructions
 
