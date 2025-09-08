@@ -1,6 +1,7 @@
 # Interview Preparation Assistant
 
-[Check out the video for our new interview prep app here!](https://www.youtube.com/watch?v=5ig7lilsb-I)
+ ### Watch our demo
+[![Interview Prep App Demo](https://img.youtube.com/vi/txI3a06w8mc/0.jpg)](https://youtu.be/txI3a06w8mc)
 
 Test the app here: https://duncan-prep.streamlit.app/
 
